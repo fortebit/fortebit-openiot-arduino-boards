@@ -55,7 +55,7 @@
                         "version": "4.8.3-2014q1"
                     },
                     {
-                        "packager": "opentracker",
+                        "packager": "fortebit_openiot",
                         "name": "bossac",
                         "version": "1.5-opentracker"
                     }
