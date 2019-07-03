@@ -1,4 +1,4 @@
-# Fortebit Open IoT - Arduino Boards Manager package
+# Fortebit Open IoT - Arduino Boards Manager package [![GitHub release](https://img.shields.io/github/release/fortebit/fortebit-openiot-arduino-boards.svg)](https://github.com/fortebit/fortebit-openiot-arduino-boards/releases/latest)
 
 Works with Arduino IDEs version 1.8.x and later
 
