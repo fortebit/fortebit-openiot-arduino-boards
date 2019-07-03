@@ -1,0 +1,99 @@
+{
+    "packages": [{
+        "name": "fortebit_openiot",
+        "maintainer": "Fortebit by RoboTech srl",
+        "websiteURL": "https://fortebit.tech/",
+        "email": "support@fortebit.tech",
+        "help": {
+            "online": "https://fortebit.tech/open-iot-platform"
+        },
+        "platforms": [{
+                "name": "Fortebit Open IoT Boards (STM32 Core)",
+                "architecture": "stm32",
+                "version": "1.0.0",
+                "category": "Contributed",
+                "url": "https://github.com/fortebit/fortebit-openiot-arduino-boards/releases/download/july-19/stm32-1.2.0-polaris-1.0.0.tar.bz2",
+                "archiveFileName": "fortebit-openiot-stm32-1.0.0.tar.bz2",
+                "checksum": "SHA-256:2d57795bd0a5b511549eedd1d288fa1236efe0bd2f1f22e76640c2b8ff4f5115",
+                "size": "3637095",
+                "boards": [
+                    { "name": "Polaris v1.0" }
+                ],
+                "toolsDependencies": [{
+                        "version": "6-2017-q2-update",
+                        "name": "arm-none-eabi-gcc",
+                        "packager": "STM32"
+                    },
+                    {
+                        "packager": "STM32",
+                        "name": "STM32Tools",
+                        "version": "1.0.2"
+                    },
+                    {
+                        "packager": "STM32",
+                        "name": "CMSIS",
+                        "version": "5.3.0"
+                    }
+                ]
+            },
+            {
+                "name": "Fortebit Open IoT Boards (SAM Core)",
+                "architecture": "sam",
+                "version": "1.0.6",
+                "category": "Contributed",
+                "url": "https://github.com/fortebit/fortebit-openiot-arduino-boards/releases/download/july-19/sam-1.6.11-opentracker-1.0.6.tar.bz2",
+                "archiveFileName": "fortebit-openiot-sam-1.0.6.bz2",
+                "checksum": "SHA-256:179d29ba29ab14d989cf772074cb6821b50b5f73a908a000b3aa84e89cc9dbb4",
+                "size": "2480554",
+                "boards": [
+                    { "name": "OpenTracker v2.4" },
+                    { "name": "OpenTracker v2.3 (and earlier)" }
+                ],
+                "toolsDependencies": [{
+                        "packager": "arduino",
+                        "name": "arm-none-eabi-gcc",
+                        "version": "4.8.3-2014q1"
+                    },
+                    {
+                        "packager": "opentracker",
+                        "name": "bossac",
+                        "version": "1.5-opentracker"
+                    }
+                ]
+            }
+        ],
+        "tools": [{
+            "name": "bossac",
+            "version": "1.5-opentracker",
+            "systems": [{
+                    "host": "i686-linux-gnu",
+                    "url": "https://github.com/fortebit/fortebit-openiot-bossa/releases/download/1.5-opentracker/bossac-1.5-opentracker-i686-linux-gnu.tar.gz",
+                    "archiveFileName": "bossac-1.5-opentracker-i686-linux-gnu.tar.gz",
+                    "checksum": "SHA-256:6b30e914b50aa12c15bee86c2c2e5ee9739d288babbc718956e7d67f52961cb4",
+                    "size": "29179"
+                },
+                {
+                    "host": "x86_64-linux-gnu",
+                    "url": "https://github.com/fortebit/fortebit-openiot-bossa/releases/download/1.5-opentracker/bossac-1.5-opentracker-x86_64-linux-gnu.tar.gz",
+                    "archiveFileName": "bossac-1.5-opentracker-x86_64-linux-gnu.tar.gz",
+                    "checksum": "SHA-256:ffb581810e0ac37dfa37019544676b44bf3e236cb38c084d5ad23de062292c3c",
+                    "size": "29389"
+                },
+                {
+                    "host": "i686-mingw32",
+                    "url": "https://github.com/fortebit/fortebit-openiot-bossa/releases/download/1.5-opentracker/bossac-1.5-opentracker-x86_64-w64-mingw32.tar.gz",
+                    "archiveFileName": "bossac-1.5-opentracker-x86_64-w64-mingw32.tar.gz",
+                    "checksum": "SHA-256:d79120c6ac40a6e02843a5ac93e3d289b7b5a4453f2f536f5dd60e364bf11b3c",
+                    "size": "218849"
+                },
+                {
+                    "host": "i686-apple-darwin10",
+                    "url": "https://github.com/fortebit/fortebit-openiot-bossa/releases/download/1.5-opentracker/bossac-1.5-opentracker-i686-apple-darwin10.tar.gz",
+                    "archiveFileName": "bossac-1.5-opentracker-i686-apple-darwin10.tar.gz",
+                    "checksum": "SHA-256:2e1d97570edcc6bd57adfff9ab3572b793b8c74d0076ccba99d8cb47ca549bcc",
+                    "size": "66626"
+                }
+            ]
+        }]
+    }]
+}
