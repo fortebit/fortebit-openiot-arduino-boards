@@ -7,4 +7,4 @@ baseversion=$(sed -n -e '/based/I s/^.* v\([0-9].*\)/\1/p' < readme.txt)
 
 cd ..
 
-tar jcvf stm32-$baseversion-opentracker-$coreversion.tar.bz2 stm32
+tar jcvf stm32-$baseversion-polaris-$coreversion.tar.bz2 stm32
