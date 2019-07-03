@@ -1,0 +1,6 @@
+[submodule "sam"]
+	path = sam
+	url = https://github.com/fortebit/fortebit-openiot-sam-core
+[submodule "stm32"]
+	path = stm32
+	url = https://github.com/fortebit/fortebit-openiot-stm32-core
