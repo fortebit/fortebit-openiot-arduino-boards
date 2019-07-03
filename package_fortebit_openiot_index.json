@@ -42,7 +42,7 @@
                 "version": "1.0.6",
                 "category": "Contributed",
                 "url": "https://github.com/fortebit/fortebit-openiot-arduino-boards/releases/download/july-19/sam-1.6.11-opentracker-1.0.6.tar.bz2",
-                "archiveFileName": "fortebit-openiot-sam-1.0.6.bz2",
+                "archiveFileName": "fortebit-openiot-sam-1.0.6.tar.bz2",
                 "checksum": "SHA-256:179d29ba29ab14d989cf772074cb6821b50b5f73a908a000b3aa84e89cc9dbb4",
                 "size": "2480554",
                 "boards": [
