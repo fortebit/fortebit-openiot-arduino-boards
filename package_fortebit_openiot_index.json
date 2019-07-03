@@ -14,8 +14,8 @@
                 "category": "Contributed",
                 "url": "https://github.com/fortebit/fortebit-openiot-arduino-boards/releases/download/july-19/stm32-1.2.0-polaris-1.0.0.tar.bz2",
                 "archiveFileName": "fortebit-openiot-stm32-1.0.0.tar.bz2",
-                "checksum": "SHA-256:2d57795bd0a5b511549eedd1d288fa1236efe0bd2f1f22e76640c2b8ff4f5115",
-                "size": "3637095",
+                "checksum": "SHA-256:de53d75eb03fa816a548f11269c0539254023532b375effa3053bf9a3ec147fc",
+                "size": "4417840",
                 "boards": [
                     { "name": "Polaris v1.0" }
                 ],
@@ -43,8 +43,8 @@
                 "category": "Contributed",
                 "url": "https://github.com/fortebit/fortebit-openiot-arduino-boards/releases/download/july-19/sam-1.6.11-opentracker-1.0.6.tar.bz2",
                 "archiveFileName": "fortebit-openiot-sam-1.0.6.tar.bz2",
-                "checksum": "SHA-256:179d29ba29ab14d989cf772074cb6821b50b5f73a908a000b3aa84e89cc9dbb4",
-                "size": "2480554",
+                "checksum": "SHA-256:68a73a3f5173a497ccddc81f2f8b7ae60d2c9ace12d6087408a4028bc65f241a",
+                "size": "2489251",
                 "boards": [
                     { "name": "OpenTracker v2.4" },
                     { "name": "OpenTracker v2.3 (and earlier)" }
