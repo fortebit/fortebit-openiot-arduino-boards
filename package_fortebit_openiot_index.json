@@ -14,8 +14,8 @@
                 "category": "Contributed",
                 "url": "https://github.com/fortebit/fortebit-openiot-arduino-boards/releases/download/july-19/stm32-1.2.0-polaris-1.0.0.tar.bz2",
                 "archiveFileName": "fortebit-openiot-stm32-1.0.0.tar.bz2",
-                "checksum": "SHA-256:7481013a34ce3494ff16807778f681619cad8605240775aa005d34f8991f1280",
-                "size": "4417815",
+                "checksum": "SHA-256:9bb78cd3dc02eee6eacb27c4d4705fa2b237f6a65b28630424ca5e475ce8f54d",
+                "size": "4417992",
                 "boards": [
                     { "name": "Polaris v1.0" }
                 ],
