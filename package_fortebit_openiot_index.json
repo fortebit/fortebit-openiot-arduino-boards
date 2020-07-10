@@ -10,6 +10,34 @@
         "platforms": [{
                 "name": "Fortebit Open IoT Boards (STM32 Core)",
                 "architecture": "stm32",
+                "version": "1.0.2",
+                "category": "Contributed",
+                "url": "https://github.com/fortebit/fortebit-openiot-arduino-boards/releases/download/july-20/stm32-1.2.0-polaris-1.0.2.tar.bz2",
+                "archiveFileName": "fortebit-openiot-stm32-1.0.2.tar.bz2",
+                "checksum": "SHA-256:6760f9da1e8e5346365e7896da282e37a1029e1b1f542470dbd3abb46e80cf4b",
+                "size": "4417992",
+                "boards": [
+                    { "name": "Polaris v1.0" }
+                ],
+                "toolsDependencies": [{
+                        "version": "6-2017-q2-update",
+                        "name": "arm-none-eabi-gcc",
+                        "packager": "STM32"
+                    },
+                    {
+                        "packager": "STM32",
+                        "name": "STM32Tools",
+                        "version": "1.0.2"
+                    },
+                    {
+                        "packager": "STM32",
+                        "name": "CMSIS",
+                        "version": "5.3.0"
+                    }
+                ]
+            }, {
+                "name": "Fortebit Open IoT Boards (STM32 Core)",
+                "architecture": "stm32",
                 "version": "1.0.1",
                 "category": "Contributed",
                 "url": "https://github.com/fortebit/fortebit-openiot-arduino-boards/releases/download/september-19/stm32-1.2.0-polaris-1.0.1.tar.bz2",
